@@ -1,0 +1,34 @@
+# --- SEGURANÇA (OBRIGATÓRIO) ---
+# Jamais suba suas chaves ou configurações com senhas
+*.p12
+*.jks
+*.keystore
+*.gpg
+config.yml
+
+# --- CACHE E TEMPORÁRIOS ---
+# Arquivos gerados pelo processo de update do fdroid
+tmp/
+stats/
+srclibs/
+build/
+.gradle/
+.DS_Store
+
+# --- PYTHON (EndeavourOS/Arch) ---
+# Como o fdroidserver é em Python, evite lixo de compilação
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- ARQUIVOS DE LOG ---
+*.log
+repo/status/update.json
+repo/status/running.json
+
+# --- IMPORTANTE: NÃO IGNORE A PASTA REPO ---
+# No seu caso, precisamos que a pasta 'repo/' e 'metadata/' sejam enviadas
+# pois elas são o "site" que o GitHub Pages vai servir.
+!repo/
+!metadata/
