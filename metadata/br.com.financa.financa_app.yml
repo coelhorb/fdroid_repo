@@ -1,9 +1,21 @@
-AuthorName: ''
+AuthorName: Ricardo Coelho
 Categories:
 - fdroid_repo
 CurrentVersionCode: 2147483647
 IssueTracker: ''
-Name: financa_app
+Name: Finanças Familiar
 SourceCode: ''
-Summary: ''
+Summary: Controle as finanças da sua família de forma simples e prática
 WebSite: ''
+Description: |
+  Finanças Familiar é um aplicativo de controle financeiro doméstico desenvolvido
+  para Ricardo & Ana, que ajuda a organizar receitas, despesas e orçamentos em
+  um só lugar.
+
+  Com uma interface intuitiva, você pode:
+  * Registrar receitas e despesas por categoria
+  * Acompanhar o saldo familiar em tempo real
+  * Visualizar relatórios e gráficos de gastos
+  * Gerenciar o orçamento mensal da família
+
+  Os dados são sincronizados com um servidor privado da família.
