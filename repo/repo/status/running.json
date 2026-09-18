@@ -1,0 +1,16 @@
+{
+  "commandLine": [
+    "/usr/bin/fdroid update"
+  ],
+  "stages": {
+    "delete_disabled_builds": 1789703171994,
+    "index.make repo": 1789703171998,
+    "prepare_apps repo": 1789703171996,
+    "process_apks": 1789703171994,
+    "read_added_date_from_all_apks": 1789703171996,
+    "remove_apks": 1789703171996,
+    "scan_repo_files": 1789703171995
+  },
+  "startTimestamp": 1789713971000,
+  "subcommand": "update"
+}
